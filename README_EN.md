@@ -1,4 +1,4 @@
-# @nourlabs/komipay-sdk
+# @nourlabs/komipay-ts-sdk
 
 [README en français](README.md) · **English**
 
@@ -31,7 +31,7 @@ profile (B2B transfers).
 ## Installation
 
 ```bash
-npm install @nourlabs/komipay-sdk
+npm install @nourlabs/komipay-ts-sdk
 ```
 
 ## Quick start
@@ -43,7 +43,7 @@ import {
   Profile,
   Channel,
   TransactionState,
-} from '@nourlabs/komipay-sdk';
+} from '@nourlabs/komipay-ts-sdk';
 
 const komipay = new Komipay({
   credentials: {
@@ -163,7 +163,7 @@ availability: `transfers` works, `collections` becomes `never`.
 ### Error handling
 
 ```ts
-import { KomipayError } from '@nourlabs/komipay-sdk';
+import { KomipayError } from '@nourlabs/komipay-ts-sdk';
 
 try {
   await komipay.collections.payWithMobileMoney({ /* ... */ });
@@ -214,8 +214,8 @@ Contributions are welcome. Recommended workflow:
 
 ### 1. Fork & Clone
 1. Fork the repository on GitHub
-2. Clone your fork: `git clone https://github.com/VOTRE-USERNAME/komipay-sdk.git && cd komipay-sdk`
-3. Add the upstream: `git remote add upstream https://github.com/mahamadou-nouridine/komipay-sdk.git`
+2. Clone your fork: `git clone https://github.com/VOTRE-USERNAME/komipay-ts-sdk.git && cd komipay-ts-sdk`
+3. Add the upstream: `git remote add upstream https://github.com/mahamadou-nouridine/komipay-ts-sdk.git`
 
 ### 2. Prepare the environment
 ```bash
@@ -237,11 +237,11 @@ git checkout -b feat/descriptive-name
 
 ### 5. Open a Pull Request
 1. Push: `git push origin feat/descriptive-name`
-2. Open a PR on GitHub against `mahamadou-nouridine/komipay-sdk:main`
+2. Open a PR on GitHub against `mahamadou-nouridine/komipay-ts-sdk:main`
 3. Describe the changes and the tests clearly
 
 ### 6. Report a bug / propose an idea
-Use the [GitHub Issues](https://github.com/mahamadou-nouridine/komipay-sdk/issues).
+Use the [GitHub Issues](https://github.com/mahamadou-nouridine/komipay-ts-sdk/issues).
 
 ## Author
 
