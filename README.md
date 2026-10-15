@@ -1,4 +1,4 @@
-# @nourlabs/komipay-sdk
+# @nourlabs/komipay-ts-sdk
 
 **Français** · [English README](README_EN.md)
 
@@ -26,7 +26,7 @@ Un SDK TypeScript OOP autonome, agnostique au framework, pour l'API KomiPay. Il 
 ## Installation
 
 ```bash
-npm install @nourlabs/komipay-sdk
+npm install @nourlabs/komipay-ts-sdk
 ```
 
 ## Démarrage rapide
@@ -38,7 +38,7 @@ import {
   Profile,
   Channel,
   TransactionState,
-} from '@nourlabs/komipay-sdk';
+} from '@nourlabs/komipay-ts-sdk';
 
 const komipay = new Komipay({
   credentials: {
@@ -159,7 +159,7 @@ disponibilité : `transfers` fonctionne, `collections` devient `never`.
 ### Gestion des erreurs
 
 ```ts
-import { KomipayError } from '@nourlabs/komipay-sdk';
+import { KomipayError } from '@nourlabs/komipay-ts-sdk';
 
 try {
   await komipay.collections.payWithMobileMoney({ /* ... */ });
@@ -210,8 +210,8 @@ Les contributions sont les bienvenues. Processus recommandé :
 
 ### 1. Fork & Clone
 1. Forkez le dépôt sur GitHub
-2. Clonez votre fork : `git clone https://github.com/VOTRE-USERNAME/komipay-sdk.git && cd komipay-sdk`
-3. Ajoutez l'upstream : `git remote add upstream https://github.com/mahamadou-nouridine/komipay-sdk.git`
+2. Clonez votre fork : `git clone https://github.com/VOTRE-USERNAME/komipay-ts-sdk.git && cd komipay-ts-sdk`
+3. Ajoutez l'upstream : `git remote add upstream https://github.com/mahamadou-nouridine/komipay-ts-sdk.git`
 
 ### 2. Préparer l'environnement
 ```bash
@@ -233,11 +233,11 @@ git checkout -b feat/nom-descriptif
 
 ### 5. Ouvrir une Pull Request
 1. Poussez : `git push origin feat/nom-descriptif`
-2. Ouvrez une PR sur GitHub vers `mahamadou-nouridine/komipay-sdk:dev`
+2. Ouvrez une PR sur GitHub vers `mahamadou-nouridine/komipay-ts-sdk:main`
 3. Décrivez clairement les changements et les tests
 
 ### 6. Signaler un bug / Proposer une idée
-Utilisez les [Issues GitHub](https://github.com/mahamadou-nouridine/komipay-sdk/issues).
+Utilisez les [Issues GitHub](https://github.com/mahamadou-nouridine/komipay-ts-sdk/issues).
 
 ## Auteur
 

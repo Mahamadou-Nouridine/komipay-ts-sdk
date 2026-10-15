@@ -1,5 +1,5 @@
 {
-  "name": "@nourlabs/komipay-sdk",
+  "name": "@nourlabs/komipay-ts-sdk",
   "version": "1.0.0",
   "description": "Unofficial, standalone OOP TypeScript SDK for the KomiPay payment API (B2C, B2B, hosted checkout, transaction status)",
   "author": {
@@ -9,12 +9,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mahamadou-nouridine/komipay-sdk.git"
+    "url": "git+https://github.com/mahamadou-nouridine/komipay-ts-sdk.git"
   },
   "bugs": {
-    "url": "https://github.com/mahamadou-nouridine/komipay-sdk/issues"
+    "url": "https://github.com/mahamadou-nouridine/komipay-ts-sdk/issues"
   },
-  "homepage": "https://github.com/mahamadou-nouridine/komipay-sdk#readme",
+  "homepage": "https://github.com/mahamadou-nouridine/komipay-ts-sdk#readme",
   "keywords": [
     "komipay",
     "payment",
